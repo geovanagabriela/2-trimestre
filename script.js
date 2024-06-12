@@ -7,36 +7,42 @@ const textoResultado=document.queryselector(".texto-resultado");
 const perguntas=[
   {
     enunciado:"voce prefere inverno ou verão?",
-    alternativas:[
-      "inverno?",
-      "verão?",
+   alternativas:[
+     {
+     texto: "inverno?",
+     afirmação:"afirmação",
+     },
+     {
+       "verão?",
+       afirmação:"afirmação",
+     }
       ]
   }
    {
     enunciado:"voce prefere praia ou piscina?",
     alternativas:[
-      "praia?",
+     texto: "praia?",
       "piscina?",
       ]
   }
      {
     enunciado:"voce prefere cachorro ou gato?",
     alternativas:[
-      "cachorro",
+     texto: "cachorro",
       "gato",
       ]
   }                                        
  {
     enunciado:"voce prefere sorvete ou açai?",
     alternativas:[
-      "sorvete",
+     texto: "sorvete",
       "açai",
       ]
   }
  {
     enunciado:"voce prefere lasanha ou pizza?",
     alternativas:[
-      "lasanha",
+    texto:  "lasanha",
       "pizza",
       ]
   }
