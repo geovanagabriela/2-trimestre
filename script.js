@@ -1,4 +1,4 @@
-ds\\const caixaPrincipal=document.queryselector(".caixa-principal");
+const caixaPrincipal=document.queryselector(".caixa-principal");
 const caixaPerguntas=document.queryselector('.caixa-perguntas");
 const caixaAlternativas=document.querysector(".caixa-alternativas");
 const caixaResultado=document.queryselector(".caixa-resultado");
@@ -21,11 +21,13 @@ const perguntas=[
    {
     enunciado:"voce prefere praia ou piscina?",
     alternativas:[
+      {
      texto: "praia?",
       "piscina?",
-      ]
-  }
-     {
+      }
+      {
+      texto
+      
     enunciado:"voce prefere cachorro ou gato?",
     alternativas:[
      texto: "cachorro",
